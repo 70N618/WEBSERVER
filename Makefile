@@ -1,4 +1,4 @@
-NAME=web
+NAME=webserv
 
 # Directories
 SRC_DIR=srcs/
