@@ -10,7 +10,8 @@ CC=g++
 CCFLAGS= -Wall -Wextra -Werror --std=c++98 -g -gdwarf-4
 
 # Sources
-SRCS= srcs/main.cpp
+SRCS= srcs/main.cpp \
+	  srcs/parser.cpp
 
 # Rule to create list of OBJS
 OBJ = $(SRCS:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)

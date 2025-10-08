@@ -17,4 +17,9 @@ struct Server
   bool auto_index;
 };
 
+void readFile(std::string file);
+void parse(std::string line);
+
 #endif
+
+

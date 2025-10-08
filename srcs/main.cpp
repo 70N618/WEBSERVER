@@ -1,6 +1,7 @@
 #include <iostream>
+#include "../includes/parser.hpp"
 
 int main(int ac, char **av)
 {
-  std::cout << av[1] << std::endl;
+  if (ac == 2) readFile(av[1]);
 }
